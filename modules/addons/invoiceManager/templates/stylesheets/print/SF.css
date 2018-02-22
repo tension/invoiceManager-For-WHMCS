@@ -1,0 +1,53 @@
+.print {
+	background-image: url('SF.jpg');
+	background-repeat: no-repeat;
+	background-size: auto 500px;
+	background-position: left top;
+	height: 500px;
+	position: relative;
+}
+.print > div {
+	font-size: 12px;
+	position: absolute;
+}
+.print span {
+	display: none;
+}
+
+/* 发件人 */
+.sendName {
+	top: 125px;
+    left: 350px;
+}
+.sendCompany {
+	top: 125px;
+    left: 130px;
+}
+.sendAddr {
+	top: 155px;
+	left: 130px;
+}
+.sendPhone {
+	top: 183px;
+	left: 130px;
+}
+.infoName {
+    top: 212px;
+    left: 130px;
+}
+.infoAddrName {
+    top: 212px;
+    left: 360px;
+}
+.infoAddress {
+    top: 238px;
+    left: 124px;
+}
+.infoMobile {
+    top: 295px;
+    left: 130px;
+}
+.infoTime {
+    top: 455px;
+    left: 100px;
+}
